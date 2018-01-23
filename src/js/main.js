@@ -15,7 +15,6 @@ class App {
 
   onClick(el) {
     console.log('Click', el);
-    let test_1 = 1;
   }
 }
 
