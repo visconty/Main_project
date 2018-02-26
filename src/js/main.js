@@ -1,23 +1,17 @@
-class App {
-
-  constructor() {}
-
+const App = {
   init() {
     this.handlers();
-  }
+  },
 
   handlers() {
-    const self = this;
-    $('body').on('click', function() {
-      self.onClick(this);
-    });
-  }
+    $('body').on('click', function() { App.onClick(this); });
+  },
 
   onClick(el) {
     console.log('Click', el);
   }
-}
+};
 
 $(document).ready(() => {
-  new App().init();
+  App.init();
 });
