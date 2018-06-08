@@ -78,7 +78,7 @@ gulp.task('scss', function () {
     .pipe(cmq({
       beautify: true
     }))
-    .pipe(cssnano())
+    // .pipe(cssnano())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(paths.web.styles.app.dir));
 });

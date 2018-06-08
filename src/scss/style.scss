@@ -1,3 +1,53 @@
 @import "partials/reset";
-@import "partials/fonts";
-@import "partials/variable";
+@import "partials/variable.scss";
+@import "partials/fonts.scss";
+@import "partials/icomoon.scss";
+@import "partials/container.scss";
+@import "partials/section-visual.scss";
+@import "partials/section-red.scss";
+@import "partials/section-purple.scss";
+@import "partials/section-green.scss";
+@import "partials/section-blue.scss";
+
+
+body{
+	font: 14px/1.43 'Lato', sans-serif;
+	color: #fff;
+	margin: 0;
+}
+
+ h1 {
+			font: 300 60px 'Lato', sans-serif;
+			text-transform: uppercase;
+			color: #fff;
+			text-align: center;
+			margin-top: 120px; 
+			@media (max-width: 350px) {
+				font-size: 45px;
+			}
+			}
+
+p {
+			font: 400 14px 'Lato', sans-serif;
+			text-align: center;
+			line-height: 24px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

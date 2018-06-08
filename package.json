@@ -14,7 +14,7 @@
     "babel-preset-env": "^1.6.1",
     "browser-sync": "^2.23.6",
     "eslint": "^4.16.0",
-    "gulp": "^3.9.0",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^7.0.0",
     "gulp-cache": "^1.0.2",
@@ -30,6 +30,7 @@
     "pre-commit": "^1.2.2"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "element-closest": "^2.0.2",
     "jquery": "^3.2.0",
     "jquery.maskedinput": "^1.4.1",

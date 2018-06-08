@@ -1,0 +1,26 @@
+.container {
+	max-width: 1130px;
+	padding: 0 15px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	
+	.header & {
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	&_visual, &_footer{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	&_red, &_purple, &_green, &_blue {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	}

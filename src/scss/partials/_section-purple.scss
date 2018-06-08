@@ -1,0 +1,146 @@
+.section-purple {
+	height: 100vh;
+
+	p {
+		margin-bottom: 50px;
+	}
+
+
+	.btn {
+		height: 50px;
+		width: 250px;
+		background-color: #a1ca6c;
+		border-radius: 3px;
+		margin-bottom: 70px;
+		position: relative;
+
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			transform: translateX(-50%); 
+			width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 15px 15px 0 15px;
+			border-color: #a1ca6c transparent transparent transparent;
+		}
+		
+		
+		p {
+			font: 900 25px 'Lato',sans-serif;
+			text-transform: uppercase;
+			line-height: 50px;
+
+		}
+	}
+
+	.person_holder {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		@media (max-width: 1130px) {
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+	}
+		.person {
+			display: flex;
+			width: 23%;
+			background-color: #5c4b5a;
+			opacity: .7;
+			border-radius: 4px;
+			padding: 40px 0 30px 0;
+			@media (max-width: 1130px) {
+			width: 35%;
+			margin: 0 4% 30px 4%;
+		}
+
+			@media (max-width: 700px) {
+				width: 55%;
+		}
+			@media (max-width: 475px) {
+				width: 80%;
+			}
+			
+			&_info {
+				width: 200px;
+				height: 100%;
+				margin: 0 auto;
+			}
+
+		img {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			margin: 0 auto;	
+			width: 150px;
+			height: 150px;
+			border: 5px solid #a1859e;
+			border-radius: 50%;
+			margin-bottom: 25px;
+		}
+
+		h2 {
+			font: 900 25px 'Lato', sans-serif;
+			text-transform: uppercase;
+			text-align: center;
+			margin-bottom: 17px;
+			
+		}
+
+		p {
+			color: #90a968;
+			margin-bottom: 40px;
+		}
+
+		.links {
+			list-style: none;
+			display: flex;
+
+
+			a {
+			text-decoration: none;
+			color: #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			background: #a1859e;
+			margin: 0 20px 0 0;
+			}	
+		}
+		
+		&:hover {
+
+			img {
+				border: 5px solid #df5c64;
+			}
+
+			p {
+				color: #d1766a;
+			}
+
+			li {
+				.icon-facebook {
+					background: #4f689e;
+				}
+				.icon-twitter {
+					background: #74c7d5;
+				}
+				.icon-google-plus {
+					background: #df5c64;
+				}
+				.icon-linkedin2 {
+					background: #3e61af;
+				}
+			}
+	}
+		
+		}
+	}
